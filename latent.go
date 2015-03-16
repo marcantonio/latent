@@ -17,6 +17,17 @@ import (
 	"sort"
 )
 
+/*
+ * Improvements:
+ *
+ * - Use a config file
+ * - Self distribute (via ssh)
+ * - Command channel for shutdown
+ * - Pool connections
+ * - Command to change master node
+ * - Better organization
+ */
+
 // Static server list
 var server_list = map[string]string{
 	"us-va": "52.1.134.148",
